@@ -5,7 +5,7 @@ describe("Given a Length function", () => {
     test("Then should return 4", () => {
       const expectedResult = 4;
 
-      const numberLength = numbers.length;
+      const numberLength = numbers.length();
 
       expect(numberLength).toBe(expectedResult);
     });
