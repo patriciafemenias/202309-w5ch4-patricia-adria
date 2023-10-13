@@ -9,8 +9,8 @@ class CodersArray {
     return this.elements.length;
   }
 
-  push(newElement) {
-    const newArray = [...this.elements, newElement];
+  push(...elements) {
+    const newArray = [...this.elements, ...elements];
     return newArray;
   }
 }
